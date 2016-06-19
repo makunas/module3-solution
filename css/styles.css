@@ -1,0 +1,44 @@
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+background-color: rebeccapurple;
+}
+
+
+.navbar-nav li a {
+	text-transform:uppercase;
+}
+
+hr {
+margin-top:5px;
+margin-bottom:5px;
+}
+
+#main-container>div {
+background-color:black;
+opacity: .5;
+padding:10px;
+}
+
+#main-container>div {
+color: white;
+}
+
+
+.navbar-inverse {
+background-color: #233C6E;
+}
+
+#heading1 {
+margin-top:60px;
+}
+
+
+
+/* extra small devices */
+
+@media (max-width:768px) {
+	.navbar-nav li:nth-child(1) {
+	padding-top:30px;
+}
+}
+
+/* end ectra small devices */
